@@ -1,0 +1,52 @@
+html {
+    margin: 0 auto;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: #17142e;
+}
+
+#title_up {
+    font-size: 3rem;
+    color: #f5005b;
+}
+
+#title_bottom {
+    font-size: 1.2em;
+}
+
+#main_top {
+    color: gold;
+    padding: 20px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+td {
+    border-right: solid 1px white;
+    padding: 10px;
+}
+
+tr td:first-child {
+    border-left: none;
+}
+
+tr td:last-child {
+    border-right: none;
+}
+
+footer {
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0;
+}
